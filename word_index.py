@@ -1,17 +1,5 @@
 #!/usr/bin/env python
-## The Big Bang ##
 import timeit
-# In this exercise you will implement a text search engine.
-# * You can use one  store object with any data structure that suits your idea.
-# * The tests are divided into steps, please pass each step at a time, but keep previous steps working.
-# * Try to complete as much steps as you can but keep in mind the complexity and quality of your solution.
-#
-#
-# Few tips before you go -
-# * We suggest you to read all tests and assert messages before you start implementing, it will save you some time in the advanced steps.
-# * Feel free to install and import any external package that might help you, but make sure that the implementation of the DB is yours
-#   (and not imported from the external package).
-
 
 from typing import Dict, List
 from word_forms.word_forms import get_word_forms
